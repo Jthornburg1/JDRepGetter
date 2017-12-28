@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="BradleyHand-Bold.ttf">
+            <string>BradleyHandITCTT-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchVCViewController" customModule="JDRepGetter" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="gUy-u9-NaV" id="HN0-uP-YRg"/>
+                <outlet property="textField" destination="pUS-Yd-6Fl" id="LTF-Et-rGB"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="gUy-u9-NaV">
+                    <rect key="frame" x="0.0" y="75" width="375" height="592"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter zipcode to search" textAlignment="center" minimumFontSize="17" background="22" translatesAutoresizingMaskIntoConstraints="NO" id="pUS-Yd-6Fl">
+                    <rect key="frame" x="12" y="25" width="351" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="xVk-LX-e4e"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="26"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="gUy-u9-NaV" secondAttribute="trailing" id="74a-qa-aqA"/>
+                <constraint firstItem="gUy-u9-NaV" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="MMV-37-Swj"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="gUy-u9-NaV" secondAttribute="bottom" id="VHh-RE-zIn"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="pUS-Yd-6Fl" secondAttribute="trailing" constant="12" id="bWT-mr-Efy"/>
+                <constraint firstItem="pUS-Yd-6Fl" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="12" id="e6h-0m-Eg6"/>
+                <constraint firstItem="pUS-Yd-6Fl" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="5" id="fam-Dz-yzf"/>
+                <constraint firstItem="gUy-u9-NaV" firstAttribute="top" secondItem="pUS-Yd-6Fl" secondAttribute="bottom" id="uEo-au-MwY"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="22" width="16" height="16"/>
+    </resources>
+</document>
