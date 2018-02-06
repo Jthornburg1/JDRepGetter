@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		75985461FC49878049E34914 /* Pods_JDRepGetterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B317C2759BED5A92D4CD7AE /* Pods_JDRepGetterTests.framework */; };
 		7C541C0C14586838E0FAD07A /* Pods_JDRepGetterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485DEEC98E8C6FA148E89F40 /* Pods_JDRepGetterUITests.framework */; };
+		D20972EA2000632A009BC3CF /* HTTPGet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20972E92000632A009BC3CF /* HTTPGet.swift */; };
 		D214CAC71FCA0DB6008A49D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D214CAC61FCA0DB6008A49D9 /* AppDelegate.swift */; };
 		D214CACE1FCA0DB6008A49D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D214CACD1FCA0DB6008A49D9 /* Assets.xcassets */; };
 		D214CAD11FCA0DB6008A49D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D214CACF1FCA0DB6008A49D9 /* LaunchScreen.storyboard */; };
@@ -17,7 +18,11 @@
 		D214CAF71FCA1414008A49D9 /* SearchVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D214CAF51FCA1414008A49D9 /* SearchVCViewController.swift */; };
 		D214CAF81FCA1414008A49D9 /* SearchVCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D214CAF61FCA1414008A49D9 /* SearchVCViewController.xib */; };
 		D214CAFA1FCA4307008A49D9 /* RepGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D214CAF91FCA4307008A49D9 /* RepGetter.swift */; };
+		D2A2693B2027D69100643BCB /* GooglePlaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A269392027D69100643BCB /* GooglePlaceCell.swift */; };
+		D2A2693C2027D69100643BCB /* GooglePlaceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2A2693A2027D69100643BCB /* GooglePlaceCell.xib */; };
+		D2A269402027EFA700643BCB /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A2693F2027EFA700643BCB /* String+Extensions.swift */; };
 		D2B3DD111FEF3778002A62C5 /* KeysAndEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B3DD101FEF3778002A62C5 /* KeysAndEndpoints.swift */; };
+		D2CEB0EA1FF5CF990023996D /* CongressPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CEB0E91FF5CF990023996D /* CongressPerson.swift */; };
 		FC475327FC4DAA090C7C78A1 /* Pods_JDRepGetter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6123DFF56AF9254AF58B03A4 /* Pods_JDRepGetter.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +53,7 @@
 		9B317C2759BED5A92D4CD7AE /* Pods_JDRepGetterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JDRepGetterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD230C6350AFB5D6C649DD99 /* Pods-JDRepGetterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDRepGetterUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JDRepGetterUITests/Pods-JDRepGetterUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CCA9D25EA23B954CCD0FE955 /* Pods-JDRepGetter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDRepGetter.release.xcconfig"; path = "Pods/Target Support Files/Pods-JDRepGetter/Pods-JDRepGetter.release.xcconfig"; sourceTree = "<group>"; };
+		D20972E92000632A009BC3CF /* HTTPGet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPGet.swift; sourceTree = "<group>"; };
 		D214CAC31FCA0DB6008A49D9 /* JDRepGetter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDRepGetter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D214CAC61FCA0DB6008A49D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D214CACD1FCA0DB6008A49D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -62,7 +68,11 @@
 		D214CAF51FCA1414008A49D9 /* SearchVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVCViewController.swift; sourceTree = "<group>"; };
 		D214CAF61FCA1414008A49D9 /* SearchVCViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchVCViewController.xib; sourceTree = "<group>"; };
 		D214CAF91FCA4307008A49D9 /* RepGetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepGetter.swift; sourceTree = "<group>"; };
+		D2A269392027D69100643BCB /* GooglePlaceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlaceCell.swift; sourceTree = "<group>"; };
+		D2A2693A2027D69100643BCB /* GooglePlaceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GooglePlaceCell.xib; sourceTree = "<group>"; };
+		D2A2693F2027EFA700643BCB /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		D2B3DD101FEF3778002A62C5 /* KeysAndEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeysAndEndpoints.swift; sourceTree = "<group>"; };
+		D2CEB0E91FF5CF990023996D /* CongressPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongressPerson.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +138,9 @@
 		D214CAC51FCA0DB6008A49D9 /* JDRepGetter */ = {
 			isa = PBXGroup;
 			children = (
+				D2A2693E2027EF8B00643BCB /* Extensions */,
+				D2A2693D2027D69A00643BCB /* CellsNViews */,
+				D2CEB0E81FF5CF7F0023996D /* Models */,
 				D214CAF41FCA13C2008A49D9 /* ViewControllers */,
 				D214CAC61FCA0DB6008A49D9 /* AppDelegate.swift */,
 				D214CACD1FCA0DB6008A49D9 /* Assets.xcassets */,
@@ -135,6 +148,7 @@
 				D214CAD21FCA0DB6008A49D9 /* Info.plist */,
 				D214CAF91FCA4307008A49D9 /* RepGetter.swift */,
 				D2B3DD101FEF3778002A62C5 /* KeysAndEndpoints.swift */,
+				D20972E92000632A009BC3CF /* HTTPGet.swift */,
 			);
 			path = JDRepGetter;
 			sourceTree = "<group>";
@@ -164,6 +178,31 @@
 				D214CAF61FCA1414008A49D9 /* SearchVCViewController.xib */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D2A2693D2027D69A00643BCB /* CellsNViews */ = {
+			isa = PBXGroup;
+			children = (
+				D2A269392027D69100643BCB /* GooglePlaceCell.swift */,
+				D2A2693A2027D69100643BCB /* GooglePlaceCell.xib */,
+			);
+			path = CellsNViews;
+			sourceTree = "<group>";
+		};
+		D2A2693E2027EF8B00643BCB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D2A2693F2027EFA700643BCB /* String+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D2CEB0E81FF5CF7F0023996D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D2CEB0E91FF5CF990023996D /* CongressPerson.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		E529CDE548F40B924965CF86 /* Pods */ = {
@@ -297,6 +336,7 @@
 			files = (
 				D214CAD11FCA0DB6008A49D9 /* LaunchScreen.storyboard in Resources */,
 				D214CACE1FCA0DB6008A49D9 /* Assets.xcassets in Resources */,
+				D2A2693C2027D69100643BCB /* GooglePlaceCell.xib in Resources */,
 				D214CAF81FCA1414008A49D9 /* SearchVCViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,9 +455,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JDRepGetter/Pods-JDRepGetter-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -479,10 +522,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D20972EA2000632A009BC3CF /* HTTPGet.swift in Sources */,
+				D2CEB0EA1FF5CF990023996D /* CongressPerson.swift in Sources */,
 				D2B3DD111FEF3778002A62C5 /* KeysAndEndpoints.swift in Sources */,
 				D214CAC71FCA0DB6008A49D9 /* AppDelegate.swift in Sources */,
+				D2A269402027EFA700643BCB /* String+Extensions.swift in Sources */,
 				D214CAF71FCA1414008A49D9 /* SearchVCViewController.swift in Sources */,
 				D214CAFA1FCA4307008A49D9 /* RepGetter.swift in Sources */,
+				D2A2693B2027D69100643BCB /* GooglePlaceCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,6 +10,7 @@ target 'JDRepGetter' do
   pod 'GooglePlaces'
   pod 'GooglePlacePicker'
   pod 'GoogleMaps'
+  pod 'Alamofire', '~> 4.5'
 
   target 'JDRepGetterTests' do
     inherit! :search_paths

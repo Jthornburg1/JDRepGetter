@@ -48,8 +48,7 @@ struct RepGetter {
         var request = URLRequest(url: url!)
         request.httpMethod = "GET"
         let task = session.dataTask(with: request) { (data, response, error) in
-            if let resp = response as? HTTPURLResponse {
-                print(resp.statusCode)
+            if (response as? HTTPURLResponse) != nil {
                 if let dta = data {
                     if let json = try? JSONSerialization.jsonObject(with: dta, options: JSONSerialization.ReadingOptions(rawValue:0)) as? [String:AnyObject] {
                         if let jsn = json {
